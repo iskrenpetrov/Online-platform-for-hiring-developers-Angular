@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    background-image: linear-gradient(to top, #f9f047 0%, #f9f047 100%);
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.elpad {
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.mat-grid-list {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    rowHeight:14px;
+    width: 40%;
+}
+.mat-grid-tile {
+    background-color: #ffffff;
+}
+.alert{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+}
+
+
+
